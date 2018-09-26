@@ -51,7 +51,12 @@ Code was written to provide the following information:
 
 
 ### Files used
-Include the files used
+The data I used is provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns.
+
+ If you want to see the original files, they can be accessed here:
+ - [Chicago]https://www.divvybikes.com/system-data - {chicago.csv}
+ - [NYC]https://www.citibikenyc.com/system-data - {new_york_city.csv}
+ - [Washington]https://www.capitalbikeshare.com/system-data - {washington.csv}
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
