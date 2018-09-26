@@ -168,7 +168,7 @@ def user_stats(df):
         most_recent_birth_year = df['Birth Year'].sort_values(ascending=False).head(1).astype(dtype=int)
         print("the most recent year of birth is: \n{}".format(most_recent_birth_year))
 
-    elif 'Birth Year' in df.columns:
+    if 'Birth Year' in df.columns:
         most_common_year_of_birth = df['Birth Year'].mode()[0].astype(dtype=int)
         print("the most common year of birth is: \n{}".format(most_common_year_of_birth))
 
