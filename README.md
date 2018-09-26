@@ -2,10 +2,10 @@
 created the project and README file on: 26/09/2018
 
 ### Project Title
-Replace the Project Title
+**Explore US Bike Share Data**
 
 ### Description
-Describe what your project is about and what it does
+
 
 ### Files used
 Include the files used
