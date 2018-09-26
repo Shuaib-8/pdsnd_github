@@ -59,4 +59,16 @@ The data I used is provided by Motivate, a bike share system provider for many 
  - [Washington]https://www.capitalbikeshare.com/system-data - {washington.csv}
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit also to Udacity for cleaning (wrangling) the data, as they are much larger and messier; also allowing me to practice my data analysis skills more easily/coherently by condensing the data into six columns.
+
+The references I used for the project to make the experience for the user interactive/accessible include:
+
+- https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response - used for configuring the while loop for implementing validation rules.
+
+- https://www.youtube.com/watch?v=yCgJGsg0Xa4&t=197s - working with dates and times in pandas.
+
+- https://stackoverflow.com/questions/10202570/pandas-dataframe-find-row-where-values-for-column-is-maximal - finding rows alongside the columns’s maximum value
+OR
+ https://s3.amazonaws.com/assets.datacamp.com/production/course_2566/slides/ch5_slides.pdf - manipulating data frames with pandas
+
+- https://www.reddit.com/r/learnpython/comments/7s99rk/pandas_sort_by_most_frequent_value_combinations/ - sort by most frequent value combinations
