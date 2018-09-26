@@ -164,7 +164,7 @@ def user_stats(df):
         earliest_birth_year = df['Birth Year'].sort_values(ascending=True).head(1).astype(dtype=int)
         print("the earliest year of birth is: \n{}".format(earliest_birth_year))
 
-    elif 'Birth Year' in df.columns:
+    if 'Birth Year' in df.columns:
         most_recent_birth_year = df['Birth Year'].sort_values(ascending=False).head(1).astype(dtype=int)
         print("the most recent year of birth is: \n{}".format(most_recent_birth_year))
 
